@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    margin: 47px 0 100px 50px;
+}
+
+.link-header {
+    margin-right: 32px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #17233d;
+    cursor: pointer;
+
+}
+
+.button-header {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    width: 124px;
+    height: 51px;
+    border-radius: 10px;
+    border: none;
+    background: #4CB538;
+    cursor: pointer;
+}
+
+img {
+    margin-left: 182px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 85px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+    width: 582px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #4b505a;
+    width: 493px;
+    margin-top: 47px;
+    margin-bottom: 57px;
+}
+
+a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6FBF44;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+
+    header {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .link-header {
+        display: none;
+    }
+
+    .button-header {
+        margin: 15px 17px 76px 284px;
+        width: 91px;
+        height: 31px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    section {
+        display: block;
+        margin: 0;
+        padding: 0;
+        position: static;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        width: 278px;
+        margin: auto;
+
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        width: 304px;
+        margin: 29px auto 26px;
+    }
+
+    a {
+        font-size: 18px;
+        line-height: 27px;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+
+    img {
+        display: block;
+        width: 312px;
+        height: 288px;
+        margin: auto;
+        position: fixed;
+        top: 480px;
+        right: 40px;
+        left: 40px;
+
+
+    }
+}
